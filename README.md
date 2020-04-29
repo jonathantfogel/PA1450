@@ -22,4 +22,6 @@ The course is organized around several lectures / discussions to introduce the f
 
 These project planning, management and execution activities have the purpose of letting the students try the theory studied as well as gaining some understanding regarding the adoption of the development models and techniques in practical contexts.
 
+
+hejhej 
 Finally, in the context of the second project planning, management and execution activity a small software development task will be carried out, in which the students, organised in groups of 3 or 4 members will develop a small piece of software to be integrated into a bigger software system.
