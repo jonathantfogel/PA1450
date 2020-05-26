@@ -7,3 +7,4 @@ Requirements
 Start
  - Open "OnlineWeather/OnlineWeather.sln" in Visual studio
  - Run with IIS Express
+ - Accept download of certificates.
