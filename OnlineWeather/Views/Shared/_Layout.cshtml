@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Weather</title>
+    @Styles.Render("~/Content/Common/Stylesheets/Main.css")
+    @Styles.Render("~/Content/Common/Stylesheets/Header.css")
+    @RenderSection("styles", required: false)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Scripts.Render("~/bundles/modernizr")-->
+</head>
+<body>
+    <header id="main-header">
+        <div id="main-header-content">
+            <div id="main-header-content-logo_container">
+                <a href="/"><img id="main-header-content-logo_img" src="~/Content/Common/Images/logo_OnlineWeather.png" /></a>
+            </div>
+            <div id="main-header-content-wd_source_container">
+                <div id="main-header-content-wd_source_label">Select weather data provider:</div>
+                <div id="main-header-content-wd_source">
+                    <a href="/?wd-source=smhi" id="wd_source_smhi_bth" class="active">SMHI.se</a>
+                    <a href="/?wd-source=yr" id="wd_source_yr_btn">Yr.no</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="view">
+        @RenderBody()
+        
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
